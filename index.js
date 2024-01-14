@@ -1,5 +1,5 @@
 let productImageUrls = 
-	['/shrin.webp', '/biden.jpg', '/biden.png', '/horse.jpg'];
+	['./shrin.webp', './biden.jpg', './biden.png', './horse.jpg'];
 
 let mainImage = document.getElementById('main-product-img');
 mainImage.src = productImageUrls[0];
