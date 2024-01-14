@@ -1,5 +1,5 @@
 let productImageUrls =
-	['./shrin.webp', './biden.jpg', './biden.png', './horse.jpg'];
+	['/shrin.webp', '/biden.jpg', '/biden.png', '/horse.jpg'];
 
 let mainImage = document.getElementById('main-product-img');
 mainImage.src = productImageUrls[0];
@@ -18,7 +18,6 @@ document.addEventListener("DOMContentLoaded", function() {
 	const currentUrl = window.location.pathname;
 
 	navLinks.forEach(link => {
-		console.log(link.getAttribute('href'))
 		if (link.getAttribute('href') === currentUrl) {
 			link.classList.add('active');
 		}
