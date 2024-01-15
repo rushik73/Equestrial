@@ -32,13 +32,4 @@ nav img {
   height: auto;
   transform: translateY(5px);
   filter: invert(90%);
-  color: white;
-  transition: color 0.3s ease;
-}
-
-
-nav img:hover {
-  color: white;
-  filter: invert(90%);
-  transition: color 0.3s ease;
 }
