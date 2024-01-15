@@ -27,8 +27,9 @@ body {
 
 .landing-subtitle {
   text-align: center;
-  font-size: 4vw;
+  font-size: 60px;
   font-weight: lighter;
-  color: white;
+  color: #fef7d9;
   opacity: 0.97;
+  transform: translateY(-200%);
 }
