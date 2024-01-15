@@ -14,12 +14,21 @@ body {
 }
 
 .title-section {
+  text-align: center;
+  font-size: 300%;
+  font-weight: bold;
+  color: white;
+  background: transparent;
+  font-family: Playfair Display;
+  font-style: Italic;
   height: 50vh;
-  /* Half of the viewport height */
   display: flex;
+
   justify-content: center;
   align-items: center;
   text-align: center;
+
+  color: #fef7d9
 }
 
 
