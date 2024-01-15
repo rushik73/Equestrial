@@ -19,7 +19,7 @@ nav a {
   transition: color 0.3s ease;
   text-decoration: none;
   padding: 15px 32px;
-  font-size: 32px;
+  font-size: 28px;
 }
 
 nav a:hover {
@@ -30,6 +30,6 @@ nav a:hover {
 nav img {
   width: 50px;
   height: auto;
-  transform: translateY(5px);
+  transform: translateY(4px);
   filter: invert(90%);
 }
