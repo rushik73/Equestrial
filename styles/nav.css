@@ -11,17 +11,34 @@ nav {
   color: white;
   backdrop-filter: blur(10px);
   background: rgba(22, 22, 23, .8);
+  border-radius: 10px;
 }
 
 nav a {
   color: rgba(255, 255, 255, 0.5);
   transition: color 0.3s ease;
   text-decoration: none;
-  padding: 12px 20px;
-  font-size: 16px;
+  padding: 15px 32px;
+  font-size: 32px;
 }
 
 nav a:hover {
   color: rgba(255, 255, 255, 1);
+  transition: color 0.3s ease;
+}
+
+nav img {
+  width: 50px;
+  height: auto;
+  transform: translateY(5px);
+  filter: invert(90%);
+  color: white;
+  transition: color 0.3s ease;
+}
+
+
+nav img:hover {
+  color: white;
+  filter: invert(90%);
   transition: color 0.3s ease;
 }
