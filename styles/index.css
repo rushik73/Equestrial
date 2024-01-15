@@ -1,0 +1,31 @@
+html {
+  /*Center the page horizontally and vertically*/
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  /*Set page background properties*/
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)), url('https://images.pexels.com/photos/2521619/pexels-photo-2521619.jpeg?cs=srgb&dl=pexels-troy-squillaci-2521619.jpg');
+}
+
+.landing-title {
+  text-align: center;
+  font-size: 120px;
+  font-weight: bold;
+  color: white;
+  background: transparent;
+}
+
+.landing-subtitle {
+  text-align: center;
+  font-size: 45px;
+  font-weight: lighter;
+  color: white;
+}
